@@ -9,7 +9,7 @@ pipeline {
             }
         }
 
-        stege('Build Docker Image') {
+        stage('Build Docker Image') {
             steps {
                 sh 'docker build -t my-app .'
             }
